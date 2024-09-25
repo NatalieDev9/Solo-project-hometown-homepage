@@ -1,0 +1,71 @@
+body {
+    color:  rgb(3, 52, 45);
+    padding: 10px;
+    font-family: Cabin; 
+    background-color:bisque;
+    }
+
+
+.left {
+    text-align: center;
+    margin-left: 5px;
+    padding: 10px;
+    border-right: 5px solid rgb(26, 136, 161); 
+    background-color: 64dfdf;
+    border: 5px solid rgb(3, 73, 80);
+    border-radius: 10px;
+    font-size: max(2vw, 5px);
+}
+
+.right {
+    width: 30%;
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: max(2vw, 5px);
+     
+}
+
+.flex-images {
+    display: inline-flex;
+    
+}
+
+#responsive-image-natalie {
+    max-width: max(10vw);
+}
+
+
+h3 {
+    color: rgb(34, 34, 130);
+    padding: 10px 5px 0 10px;
+}
+
+
+.location-img {
+    padding: 10px 30px 10px 10px;
+    width: 100%;
+    
+}
+
+.button {
+    margin-top: 20px;
+    padding: 5px 12px 5px 12px;
+    border: 8px solid rgb(3, 73, 80);
+    background-color:#57cc99;
+    border-width: 3px; 
+    border-radius: 4px;
+    font-weight: bold;
+        }
+
+#responsive-button {
+    font-size: max(2vw);
+    max-width: max(15vw);
+}
+
+#sidebar-text {
+    margin: 20px 10px 10px 2px;
+    text-align: justify;
+    margin-right: 5px;
+    font-size: max(1.5vw); 
+}
